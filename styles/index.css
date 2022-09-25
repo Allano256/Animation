@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Roboto";
+    src:url(/fonts/Roboto-Regular.ttf);
+}
+body {
+    margin-left: 40px;
+    margin-right: 10px;
+    background-color:aqua;
+}
+.container{
+    display:inline-block;
+    margin-bottom: 20px;
+}
+.images {
+    
+}
+.image-one {
+    max-width: 100%;
+    width:500px;
+    height:800px;
+}
+.image-two {
+     max-width: 100%;
+    width:700px;
+    height:800px;
+
+}
+
+.main h1  {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+span {
+    color:  rgb(218, 11, 11);
+}
+.main p   {
+    font-family:Georgia, 'Times New Roman', Times, serif ;  
+}
+.image-two {
+
+    
+}
