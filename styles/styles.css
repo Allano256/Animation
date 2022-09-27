@@ -3,43 +3,55 @@
     src:url(/fonts/Roboto-Regular.ttf);
 }
 body {
+   
     margin-left: 40px;
     margin-right: 10px;
-    background-color:aqua;
+   
 }
 .container{
+   
+    width: 60%;
+    height: auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
     display:inline-block;
     margin-bottom: 20px;
+    background-color:aqua;
 }
 
 .image-one {
     max-width: 100%;
-    width:500px;
-    height:800px;
-    transform: translateX(-20PX);
+    width:auto;
+    height:300px;
+    transition: transform 2s ease-in-out ;
 }
 .image-one:hover {
-    transform:translateX(20%) ;
-    transform:translateY(10%) ;
+    transform:translateX(100%) ;
+    animation: fade 1s ease-in-out .2s;
+    
+     
+}
+body:hover {
+    background-color: brown;
+    
 }
 
 
 
-/*  @keyframe fade {
+  @keyframes fade {
     
-     0% {transform:translateX(-20px);}
+    0% {transform:translateX(0%);}
+
+     100% {transform:translateX(100%);}
      
-     100%{transform:translateX(0px);}
-}*/
+  } 
     
 
-.main h1  {
+.main h1,.main p  {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 span {
-    color:  rgb(218, 11, 11);
+    color:  rgb(217, 201, 30);
 }
-.main p   {
-    font-family:Georgia, 'Times New Roman', Times, serif ;  
-}
+
 
