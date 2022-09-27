@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Roboto";
+    src:url(/fonts/Roboto-Regular.ttf);
+}
+body {
+    margin-left: 40px;
+    margin-right: 10px;
+    background-color:aqua;
+}
+.container{
+    display:inline-block;
+    margin-bottom: 20px;
+}
+
+.image-one {
+    max-width: 100%;
+    width:500px;
+    height:800px;
+    transform: translateX(-20PX);
+}
+.image-one:hover {
+    transform:translateX(20%) ;
+    transform:translateY(10%) ;
+}
+
+
+
+/*  @keyframe fade {
+    
+     0% {transform:translateX(-20px);}
+     
+     100%{transform:translateX(0px);}
+}*/
+    
+
+.main h1  {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+span {
+    color:  rgb(218, 11, 11);
+}
+.main p   {
+    font-family:Georgia, 'Times New Roman', Times, serif ;  
+}
+
