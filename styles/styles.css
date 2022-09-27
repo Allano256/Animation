@@ -54,4 +54,6 @@ span {
     color:  rgb(217, 201, 30);
 }
 
-
+address{
+    display: block;
+}
